@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="t d">
+  <title id="t">MODSHIK // PERSONAL OS</title>
+  <desc id="d">CS Student, Developer, Explorer. Turning ideas into things that actually run.</desc>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="55%" stop-color="#05080F"/>
+      <stop offset="100%" stop-color="#04060C"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="46%" r="58%">
+      <stop offset="0%" stop-color="#0A84FF" stop-opacity="0.20"/>
+      <stop offset="60%" stop-color="#0A84FF" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0A84FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#0E1728" stroke-width="1"/>
+    </pattern>
+
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2E9BFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#2E9BFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#2E9BFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2E9BFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#8FD0FF" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#2E9BFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="neon" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="9" result="blur"/>
+      <feFlood flood-color="#2E9BFF" flood-opacity="0.8" result="tint"/>
+      <feComposite in="tint" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- surface -->
+  <rect width="1200" height="420" rx="14" fill="url(#bgGrad)"/>
+  <rect width="1200" height="420" rx="14" fill="url(#grid)" opacity="0.55"/>
+  <rect width="1200" height="420" rx="14" fill="url(#glow)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="418.5" rx="13.5" fill="none" stroke="#17253C" stroke-width="1.5"/>
+
+  <!-- corner brackets -->
+  <g fill="none" stroke="#2E9BFF" stroke-width="2" opacity="0.75">
+    <path d="M 20,54 L 20,20 L 54,20"/>
+    <path d="M 1146,20 L 1180,20 L 1180,54"/>
+    <path d="M 1180,366 L 1180,400 L 1146,400"/>
+    <path d="M 54,400 L 20,400 L 20,366"/>
+  </g>
+
+  <!-- ambient sweep -->
+  <rect x="0" y="0" width="1200" height="1.5" fill="url(#sweep)">
+    <animate attributeName="y" values="70;356;70" dur="14s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- top left : shell prompt -->
+  <text x="52" y="54" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" letter-spacing="1.5">
+    <tspan fill="#6B7F9E">modShik@github</tspan><tspan fill="#2E9BFF">:~$</tspan><tspan fill="#3DDC84"> _<animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/></tspan>
+  </text>
+
+  <!-- top right : system status -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <text x="1118" y="54" font-size="15" letter-spacing="3" fill="#6B7F9E" text-anchor="end">SYSTEM STATUS &#183; ONLINE</text>
+    <circle cx="1140" cy="48" r="10" fill="none" stroke="#3DDC84" stroke-width="1.5" opacity="0.5">
+      <animate attributeName="r" values="6;12;6" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.55;0;0.55" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1140" cy="48" r="5" fill="#3DDC84">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- wordmark : M O D S H I K -->
+  <g transform="translate(302,112) scale(0.86)" filter="url(#neon)"
+     fill="none" stroke="#EDF3FA" stroke-width="13" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="6">
+    <path d="M 0,100 L 0,0 L 36,42 L 72,0 L 72,100"/>
+    <path d="M 112,18 L 130,0 L 166,0 L 184,18 L 184,82 L 166,100 L 130,100 L 112,82 Z"/>
+    <path d="M 224,0 L 272,0 L 296,24 L 296,76 L 272,100 L 224,100 Z"/>
+    <path d="M 408,16 L 392,0 L 352,0 L 336,16 L 336,34 L 352,50 L 392,50 L 408,66 L 408,84 L 392,100 L 352,100 L 336,84"/>
+    <path d="M 448,0 L 448,100 M 520,0 L 520,100 M 448,50 L 520,50"/>
+    <path d="M 571,0 L 571,100"/>
+    <path d="M 622,0 L 622,100 M 692,0 L 628,52 M 652,36 L 694,100"/>
+  </g>
+
+  <!-- subtitle -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+    <text x="606" y="252" font-size="25" letter-spacing="12" fill="#2E9BFF" font-weight="600">// PERSONAL OS</text>
+  </g>
+
+  <!-- divider -->
+  <rect x="380" y="282" width="440" height="1.5" fill="url(#rule)"/>
+
+  <!-- roles + tagline -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+    <text x="603" y="316" font-size="16" letter-spacing="6" fill="#94A9C6">CS STUDENT &#8226; DEVELOPER &#8226; EXPLORER</text>
+    <text x="601.5" y="350" font-size="15" letter-spacing="3" fill="#5C7091">TURNING IDEAS INTO THINGS THAT ACTUALLY <tspan fill="#3DDC84">RUN.</tspan></text>
+  </g>
+
+  <!-- bottom corners -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" letter-spacing="2.5" fill="#4A5F80">
+    <text x="52" y="388">VERSION 1.0.0</text>
+    <text x="1148" y="388" text-anchor="end">LOC &#183; INDIA</text>
+  </g>
+</svg>
