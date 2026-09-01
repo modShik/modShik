@@ -68,15 +68,9 @@
 
 <img src="assets/sec-03-metrics.svg" alt="03 // SYSTEM.METRICS" width="100%">
 
-<table>
-  <tr>
-    <td width="50%"><img width="100%" src="https://github-readme-stats.vercel.app/api?username=modShik&show_icons=true&hide_border=true&rank_icon=github&bg_color=0D1117&title_color=2E9BFF&text_color=8AA0BF&icon_color=3DDC84&ring_color=2E9BFF" alt="GitHub statistics for modShik"></td>
-    <td width="50%"><img width="100%" src="https://streak-stats.demolab.com?user=modShik&hide_border=true&background=0D1117&stroke=17253C&ring=2E9BFF&fire=3DDC84&currStreakLabel=2E9BFF&sideLabels=8AA0BF&currStreakNum=E9F0F8&sideNums=E9F0F8&dates=4A5A73" alt="Contribution streak for modShik"></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><img width="46%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=modShik&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=2E9BFF&text_color=8AA0BF" alt="Most used languages"></td>
-  </tr>
-</table>
+<div align="center">
+  <img width="80%" src="https://streak-stats.demolab.com?user=modShik&hide_border=true&background=0D1117&stroke=17253C&ring=2E9BFF&fire=3DDC84&currStreakLabel=2E9BFF&sideLabels=8AA0BF&currStreakNum=E9F0F8&sideNums=E9F0F8&dates=4A5A73" alt="Contribution streak for modShik">
+</div>
 
 <br>
 
