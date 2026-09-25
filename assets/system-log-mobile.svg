@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="278" viewBox="0 0 360 278" role="img" aria-labelledby="title desc">
+  <title id="title">System log — building, learning, still exploring</title>
+  <desc id="desc">Boot sequence completed. Building things. Learning continuously. Looking for the next problem to solve.</desc>
+  <rect x=".5" y=".5" width="359" height="277" rx="6" fill="#020e15" stroke="#17404a"/>
+  <circle cx="19" cy="23" r="4" fill="#ef6257"/>
+  <circle cx="33" cy="23" r="4" fill="#e9bd44"/>
+  <circle cx="47" cy="23" r="4" fill="#2bd15a"/>
+  <path d="M1 44H359" stroke="#17404a"/>
+  <g font-family="'Courier New',monospace" font-size="17" fill="#a9bfd0">
+    <text x="66" y="28" font-size="14">shikhar@portfolio:~</text>
+    <text x="18" y="78" fill="#00edcc">$ modshik --status</text>
+    <text x="18" y="114"><tspan fill="#00edcc">[ok]</tspan> Boot sequence completed.</text>
+    <text x="18" y="150"><tspan fill="#00edcc">[..]</tspan> Building things.</text>
+    <text x="69" y="175">Learning continuously.</text>
+    <text x="18" y="211"><tspan fill="#00edcc">[&gt;&gt;]</tspan> Looking for the next</text>
+    <text x="69" y="236">problem to solve.</text>
+    <text x="18" y="262" fill="#00edcc">$</text>
+  </g>
+  <rect x="42" y="248" width="8" height="15" fill="#00edcc"/>
+</svg>
